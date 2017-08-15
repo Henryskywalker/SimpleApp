@@ -1,0 +1,28 @@
+<Button>:
+    font_size:15
+    color:1,0,0,1
+    size_hint:0.3,0.2
+    border:10,10,10,10
+    background_color:0,1,2,3
+
+<FloatLayout>:
+    Slider:
+        orientation:'vertical'
+        height:30
+    Button:
+        text:'Configurações'
+        height:10
+        pos_hint:{'center_x':0.20,'center_y':0.13}
+        on_press:print('Configurações - STATUS OK')
+    Button:
+        text:'Kivy Tutoriais'
+        pos_hint:{'center_x':0.20,'center_y':0.38}
+        on_press:print('Kivy Tutoriais - STATUS OK')
+    Button:
+        text:'Kivy Applications'
+        pos_hint:{'center_x':0.20,'center_y':0.63}
+        on_press:print('Kivy Applications - STATUS OK')
+    Button:
+        text:'CommunityCode'
+        pos_hint:{'center_x':0.20,'center_y':0.87}
+        on_press:print('CommunityCode - STATUS OK')
